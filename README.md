@@ -2,6 +2,7 @@
 
 GeoJSON Scope is a web based 'RADAR' screen powered by GeoJSON input files. 
 [screenshot]: https://raw.githubusercontent.com/Surfrdan/GeoJsonScope/master/docs/screenshot.png
+
 ## Aircraft Can be presented in the following format in order to display 'live' 
 
 ```json
