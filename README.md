@@ -59,6 +59,3 @@ realtime = L.realtime({
 
 ### Dump1090 users
 Included in the tools directory is a PHP script which converts the dump1090 data.json format into GeoJSON. If you are using dump1090 and a SDR Dongle then this will generate the required feed.
-
-### Virtual Radar Server users
-Also included in the tools directory is a PHP script which converts the VRS AircraftList.json format into GeoJSON. 
