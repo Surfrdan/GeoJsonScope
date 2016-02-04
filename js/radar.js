@@ -19,7 +19,7 @@ var polylines = {};
 var map = L.map('map').setView([52.483, -1.89], 7),
 
 realtime = L.realtime({
-	url: 'feeders/geojson_aircraft_vrs.php?milOnly=true',
+	url: 'feeders/geojson_aircraft.php',
     crossOrigin: true,
     type: 'json'
 }, {
@@ -59,7 +59,7 @@ realtime.on('update', function(data) {
 				achistory[id] = achistory[id].slice(-10);
 			} else {
 				delete achistory.id;
-				delete polylines[id];
+				delete polylines.id;
 			}
 		}
 	}
